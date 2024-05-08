@@ -1,0 +1,82 @@
+body{
+    background-image: url(images/1.jpg);
+}
+.div1{
+    width: 600px;
+    height: 500px;
+    background-color: gray;
+    opacity: 0.6;
+    text-align: center;
+    /* justify-content: center; */
+    margin-left: 30%;
+    margin-top: 60px;
+    color: white;
+    padding-top: 30px;
+    border-radius: 50% ;
+}
+.main_heading{
+    color:rgb(33 32 32);
+    font-size: 30px;
+    margin-top: 40px;
+    font-style: italic;
+}
+.leble{
+    font-size: x-large;
+    font-style: italic;
+    color: rgb(33 32 32);
+}
+input{
+    width: 80px;
+    background-color: rgb(158, 155, 155);
+    border: 2px solid rgb(22, 23, 22);
+    border-radius: 10px;
+    
+
+}
+input:hover{
+    font-size: x-large;
+    background-color: white;
+    border-radius: 0px;
+    opacity: 1;
+}
+select{
+    /* border: 2px solid rgb(39, 165, 106);  */
+    border: 2px solid rgb(22, 23, 22);
+    background-color:rgb(158, 155, 155);
+    border-radius: 10px;
+    width: 80px;
+}
+select:hover{
+    font-size: x-large;
+    background-color: white;
+    border-radius: 0px;
+    opacity: 1;
+}
+.submit{
+    background-color:  rgb(158, 155, 155);
+    width: 150px;
+    border: 2px solid rgb(22, 23, 22);
+    border-radius: 10px;
+    /* color: rgb(39, 165, 106); */
+    font-style: italic;
+    font-size: 20px;
+}
+.submit:hover{
+    background-color: rgb(46, 44, 47);
+    color: white;
+
+}
+.submit:active{
+    color: red;
+}
+.result{
+    color: rgb(33 32 32);
+    font-style: italic;
+    opacity: 1;
+}
+.BMIstatus{
+    color: rgb(33 32 32);
+    font-style: italic;
+    opacity: 1;
+
+}
